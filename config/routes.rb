@@ -1,6 +1,6 @@
 DemoApp::Application.routes.draw do
 
-  root   /  {:controller=>"users", :action=>"index"}
+  map.root :controller => 'users'
   
   resources :microposts
 
