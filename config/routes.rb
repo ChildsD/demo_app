@@ -1,6 +1,4 @@
 DemoApp::Application.routes.draw do
-
-  map.root :controller => 'users'
   
   resources :microposts
 
